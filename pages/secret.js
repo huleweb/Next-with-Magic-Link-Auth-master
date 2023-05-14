@@ -4,7 +4,7 @@ import setLoginSession from "../lib/auth"
 const name = (props) => {
   return (
     <div>
-      hola tarado "{setLoginSession.metadata.email}"
+      hola tarado {{setLoginSession}}
     </div>
   )
 };
