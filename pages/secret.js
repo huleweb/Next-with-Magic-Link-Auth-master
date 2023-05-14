@@ -1,5 +1,5 @@
 import React from "react"
-import setLoginSession from "auth"
+import setLoginSession from "../lib/auth"
 
 const name = (props) => {
   return (
