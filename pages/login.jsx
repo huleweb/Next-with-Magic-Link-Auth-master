@@ -27,7 +27,7 @@ export default function LoginPage() {
     });
     if (res.status === 200) {
       // redirect
-      Router.push("/");
+      Router.push("/secret");
     } else {
       // display an error
       console.log("todo anda mal")
